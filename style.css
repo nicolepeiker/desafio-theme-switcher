@@ -1,0 +1,44 @@
+body {
+  background: #e5e5e5;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body.active {
+  background: #292c35;
+}
+
+.toggle {
+  position: absolute;
+  width: 220px;
+  height: 102px;
+  background: #000;
+  border-radius: 51px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.moon,
+.sun {
+  height: 80%;
+}
+
+.btn {
+  background: #f1f1f1;
+  width: 86px;
+  height: 86px;
+  border-radius: 43px;
+  position: absolute;
+  right: 50%;
+  transition: all 0.5s;
+}
+
+.btn.active {
+  translate: 119px;
+}
